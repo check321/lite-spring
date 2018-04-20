@@ -1,4 +1,4 @@
-package net.check321.springlearning;
+package net.check321.liteSpring;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
