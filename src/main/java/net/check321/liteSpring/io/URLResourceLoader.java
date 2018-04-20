@@ -18,7 +18,7 @@ public class URLResourceLoader implements ResourceLoader {
 
     @Override
     public Resource getResource() {
-        URL resource = this.getClass().getResource(location);
+        URL resource = this.getClass().getClassLoader().getResource(location);
         return new URLResource(resource);
     }
 }

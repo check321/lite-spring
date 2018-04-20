@@ -20,7 +20,7 @@ public class BeanDefinition {
     private Object bean;
 
     // 属性列表
-    private Properties properties;
+    private Properties properties =  new Properties();
 
     public String getBeanName() {
         return beanName;
